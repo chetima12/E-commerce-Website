@@ -21,7 +21,7 @@ require('admin/security/secure.php');
         <div class="row">
             <div class="col-lg-8" style="text-align: center; justify-content:center;">
                 <section class="jumbotron text-center fade-in">
-                    <h1 class="display-4">Bienvenu cher(e) <?= $_SESSION['nom']; ?></h1>
+                    <h1 class="display-4">Bienvenue cher(e) <?= $_SESSION['nom']; ?></h1>
                     <p class="lead">Nous somme ravis de vous acceuillir sur notre site web.</p>
                     <p><a href="product2.php?id_produit= <?= $_SESSION['id_admin'] ?>" class="btn btn-primary">Voir produits</a></p>
                 </section>
