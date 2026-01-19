@@ -1,0 +1,14 @@
+.col {
+            transition: transform 0.3s, box-shadow 0.3s, opacity 0.5s;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        .col.visible {
+            opacity: 1;
+            transform: translateY(0);
+            box-shadow: 0 8px 32px rgba(59,130,246,0.12);
+        }
+        .col:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 16px 40px rgba(59,130,246,0.18);
+        }
